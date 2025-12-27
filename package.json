@@ -34,7 +34,15 @@
   ],
   "author": "Umesh Singh Patel",
   "license": "MIT",
-  "description": "A customizable React multi slider component",
+  "description": "A lightweight, fully customizable React multi-slider / carousel component with touch support, infinite looping, keyboard navigation, and flexible arrow customization.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projection-part/multiple-slider"
+  },
+  "homepage": "https://github.com/projection-part/multiple-slider#readme",
+  "bugs": {
+    "url": "https://github.com/projection-part/multiple-slider/issues"
+  },
   "dependencies": {
     "@babel/core": "^7.28.5",
     "@babel/preset-env": "^7.28.5",
