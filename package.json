@@ -1,0 +1,52 @@
+{
+  "name": "multiple-slider",
+  "version": "2.8.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "@lordicon/react": "^1.11.0",
+    "bootstrap": "^5.3.8",
+    "leaflet": "^1.9.4",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "keywords": [
+    "react",
+    "react-slider",
+    "carousel",
+    "multi-slider",
+    "image-slider",
+    "swiper",
+    "ui-component",
+    "react-component",
+    "frontend"
+  ],
+  "author": "Umesh Singh Patel",
+  "license": "MIT",
+  "description": "A customizable React multi slider component",
+  "dependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@rollup/plugin-babel": "^6.1.0",
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.53.5"
+  },
+  "devDependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
